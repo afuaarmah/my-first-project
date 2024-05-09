@@ -1,0 +1,95 @@
+ body {
+     background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+ }
+
+ .container {
+     max-width: 700px;
+     border-radius: 30px;
+     background: white;
+     margin: auto;
+     padding: 50px;
+
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ button {
+     display: block;
+
+     padding: 10px;
+     margin: auto;
+     border: 15px, solid;
+     transition: all, 0.5ms, ease-in-out;
+     background: white;
+     font-size: 15px;
+     border-radius: 4px;
+
+ }
+
+ button:hover {
+     cursor: pointer;
+     background: purple;
+     color: white;
+ }
+
+ .theme-button {
+     background: black;
+     color: white;
+     font-size: 10px;
+     padding: 5px;
+ }
+
+ .theme-button:hover {
+     background: white;
+     color: black;
+     cursor: pointer;
+ }
+
+ .first-gallery {
+     border-radius: 10px;
+     transition: opacity, o.5ms, ease-in-out;
+
+
+ }
+
+ .first-gallery:hover {
+     transform: scale(1.1);
+     filter: contrast(50%);
+ }
+
+ footer {
+     text-align: center;
+     margin: 20px;
+ }
+
+ .grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 20px
+ }
+
+ .grid img {
+     width: 100%;
+     border-radius: 10px;
+     transition: opacity, 0.5ms, ease-in-out;
+     cursor: pointer;
+ }
+
+ .grid img:hover {
+     transform: scale(1.1);
+ }
+
+ .dark {
+     background: black;
+     color: white;
+ }
+
+ .dark .container {
+     background: grey;
+ }
